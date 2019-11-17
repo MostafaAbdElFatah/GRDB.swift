@@ -26,7 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let databaseURL = try FileManager.default
             .url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
             .appendingPathComponent("db.sqlite")
-        dbQueue = try AppDatabase.openDatabase(atPath: databaseURL.path)
+        let path = Bundle.main.path(forResource: "db_one", ofType: "db")!
+        //dbQueue = try AppDatabase.openDatabase(atPath: databaseURL.path)
+        dbQueue = try AppDatabase.openDatabase(atPath: path)
         dbQueue.setupMemoryManagement(in: application)
     }
     func applicationWillResignActive(_ application: UIApplication) {

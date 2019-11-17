@@ -14,6 +14,8 @@
 		06C3AED82381576D0044E353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C3AED62381576D0044E353 /* LaunchScreen.storyboard */; };
 		06C3AEE0238158220044E353 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C3AEDF238158220044E353 /* Place.swift */; };
 		06C3AEE223815A5A0044E353 /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C3AEE123815A5A0044E353 /* AppDatabase.swift */; };
+		06C3AEE523816D190044E353 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C3AEE423816D190044E353 /* Country.swift */; };
+		06C3AEE6238171A40044E353 /* db_one.db in Resources */ = {isa = PBXBuildFile; fileRef = 06C3AEE323816D010044E353 /* db_one.db */; };
 		95D7BC32B81EA8816C1DCE83 /* Pods_CRUDSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1192E16279E97CDB63765761 /* Pods_CRUDSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		06C3AED92381576D0044E353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C3AEDF238158220044E353 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		06C3AEE123815A5A0044E353 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
+		06C3AEE323816D010044E353 /* db_one.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = db_one.db; sourceTree = "<group>"; };
+		06C3AEE423816D190044E353 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		1192E16279E97CDB63765761 /* Pods_CRUDSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRUDSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B47E5B4453DCC881CF081E7 /* Pods-CRUDSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDSwift.release.xcconfig"; path = "Target Support Files/Pods-CRUDSwift/Pods-CRUDSwift.release.xcconfig"; sourceTree = "<group>"; };
 		736282D98565D3014F13941C /* Pods-CRUDSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUDSwift.debug.xcconfig"; path = "Target Support Files/Pods-CRUDSwift/Pods-CRUDSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 		06C3AECC2381576C0044E353 /* CRUDSwift */ = {
 			isa = PBXGroup;
 			children = (
+				06C3AEE323816D010044E353 /* db_one.db */,
 				06C3AECD2381576C0044E353 /* AppDelegate.swift */,
 				06C3AECF2381576C0044E353 /* ViewController.swift */,
 				06C3AED12381576C0044E353 /* Main.storyboard */,
@@ -73,6 +78,7 @@
 				06C3AED92381576D0044E353 /* Info.plist */,
 				06C3AEDF238158220044E353 /* Place.swift */,
 				06C3AEE123815A5A0044E353 /* AppDatabase.swift */,
+				06C3AEE423816D190044E353 /* Country.swift */,
 			);
 			path = CRUDSwift;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C3AEE6238171A40044E353 /* db_one.db in Resources */,
 				06C3AED82381576D0044E353 /* LaunchScreen.storyboard in Resources */,
 				06C3AED52381576D0044E353 /* Assets.xcassets in Resources */,
 				06C3AED32381576C0044E353 /* Main.storyboard in Resources */,
@@ -212,6 +219,7 @@
 				06C3AEE0238158220044E353 /* Place.swift in Sources */,
 				06C3AED02381576C0044E353 /* ViewController.swift in Sources */,
 				06C3AEE223815A5A0044E353 /* AppDatabase.swift in Sources */,
+				06C3AEE523816D190044E353 /* Country.swift in Sources */,
 				06C3AECE2381576C0044E353 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
